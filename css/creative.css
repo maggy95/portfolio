@@ -1,0 +1,337 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+button{
+	margin-right: 1%;
+    margin-bottom: 1%;
+}
+header{
+	background: rgba(255,255,255,0.1);
+	position: fixed;
+	width: 100%;
+	border-bottom:1px solid white; 
+}
+.porta{
+	width: 20%;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.portafolio{
+	width: 113px;
+	margin-top: 4%;
+	color: white;
+	font-weight: 600;
+}
+.color a{
+	color: white;
+	font-weight: 600;
+}
+.box-type1{
+	background: url(../img/header.jpg);
+	display: -webkit-flex;
+    display: flex;
+    height: 100vh;
+   /* background-attachment: fixed;*/
+    background-size:cover;
+    background-position: 55%;
+    margin: auto;
+    text-align: center;
+}
+.datos{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15.5%;
+}
+.box-type1 h3{
+	font-size: 2.7em;
+	color: white;
+	width: 67.7%;
+	margin: auto;
+	margin-bottom: 1.5%;
+}
+.box-type1 hr{
+	width: 3%;
+	margin-top: 2%;
+	border: 1px solid #F05F40;
+	margin: auto;
+}
+.info{
+	    color: white;
+    font-size: 14px;
+    width: 58%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+.explorar{
+	margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 10px;
+    background-color: #F05F40;
+    width: 10%;
+    color: white;
+    border-radius: 30px;
+    margin-top: 3%;
+}
+.explorar a{
+	color: white;
+}
+/* section2*/
+.box-type2{
+	padding: 2.5%;
+    padding-bottom: 7%;
+	background-color: #F05F40;
+}
+.my , .my h3{
+	    color: white;
+    margin: auto;
+    width: 54.5%;
+    text-align: center;
+}
+.my h3{
+	font-weight: normal;
+    font-size: 2em;
+        margin-bottom: 2%;
+}
+.my hr{
+	width: 6%;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: auto;
+}
+.informacion{
+	padding-top: 2%;
+	font-size: 12px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+/*section*/
+.box-type3{
+	    background-color: white;
+    padding: 4%;
+    padding-bottom: 14%;
+    width: 77%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+.program .fa{
+	font-size: 3em;
+	color: #F05F40;
+}
+.service h3{
+	color: black;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.service hr{
+	width: 6%;
+	border: 1px solid #F05F40;
+	margin: auto;
+}
+.program{
+	margin-top: 3%;
+	text-align: center;
+}
+.iconos{
+	padding-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.titule{
+	font-size: 1.2em;
+    color: black;
+    font-weight: 600;
+    margin-top: 6%;
+}
+.date{
+	font-size: 13px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+.space{
+	    border: 2em solid white;
+    width: 5%;
+}
+/* service*/
+.box-type4{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.img{
+  width: 100%;
+}
+
+/* section*/
+.box-type5{
+	background-color: #222222;
+	height: 30vh;
+	padding: 3.5%;
+}
+.box-type5 h4{
+	font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+    width: 56%;
+    margin-top: 3%
+}
+.git-hub{
+	padding: 0.7%;
+    background-color: white;
+    width: 12%;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 20px;
+    font-weight: 800;
+}
+.git-hub a{
+	text-decoration: none;
+	color: black;
+}
+.box-type6{
+	background-color: white;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+}
+.box-type6 h3{
+	color: black;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-bottom: 1%;
+}
+.box-type6 hr{
+	width:2.5%;
+	border: 1.5px solid #F05F40;
+	margin: auto;
+}
+.contacto{
+	    padding-top: 1%;
+    width: 39%;
+    font-size: 11px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+.contact{
+    width: 41%;
+    font-size: 11px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1%;
+    padding-bottom: 8%;
+}
+.medios{
+	margin-top: 10%;
+    margin-bottom: 4%;
+}
+.contact .fa{
+	font-size: 3.5em;
+	color: black;
+}
+.contact a{
+	text-decoration: none;
+	color: #F05F40;
+}
+.contact p{
+	font-size: 14px;
+}
+/*hover*/
+.text-muted{
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+#works {
+  background-color: #edecec;
+   }
+#works .work {
+    position: relative; 
+}
+#works .work img {
+      width: 100%; 
+    }
+#works .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20%; 
+  }
+.overlay h4{
+  font-size: 1em;
+}
+.overlay p{
+	font-size: 12px;
+}
+.overlay h4,.overlay p {
+  visibility: hidden; 
+}
+.overlay:hover {
+  background-color: rgba(255,127,80, 0.8); 
+}
+
+.overlay:hover h4,.overlay:hover p {
+  visibility: visible; 
+}
+
+/* media*/
+@media screen and (max-width: 700px ){
+	.contacto{
+    width: 70%;
+    margin-top: 2%;
+	}
+.box-type6 h3{
+    margin-bottom: 3%;
+	}
+.box-type6 hr{
+	width:10%;
+	}
+.git-hub{
+	padding: 1.9%;
+    width: 27%;
+    font-size: 11px;
+    margin-top: 5%;
+	}
+	.informacion{
+    width: 104.3%;
+	}
+	.explorar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 13px;
+    width: 22%;
+    font-weight: 600;
+	}
+	.color a{
+		color: #F05F40 !important;
+	}
+	.portafolio{
+		color: #F05F40 !important;
+	}
+	.box-type1 h3{
+	font-size: 2.7em;
+	color: white;
+	width:100%;
+	margin: auto;
+	margin-bottom: 1.5%;
+	}
+}
